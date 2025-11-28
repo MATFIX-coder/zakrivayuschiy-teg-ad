@@ -13,4 +13,44 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font), sans-serif;
+  font-variation-settings: 'wght' var(--main-card-font-weight, 400);
+}
+
+.header{
+  width: 696px;
+  height: 364px;
+  border: 2px solid var(--accent-color, #000);
+  background: var(--bg-color, #FFF);
+  padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 100px 370px;
+}
+
+.header_teg{
+  color: var(--accent-color, #000);
+  font-family: "Press Start 2P";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header_title{
+  color: var(--accent-color, #000);
+  font-family: "Press Start 2P";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main {
+  padding-block-end: 100px;
 }
