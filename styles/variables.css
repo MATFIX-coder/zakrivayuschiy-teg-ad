@@ -5,5 +5,11 @@
   --main-card-font-weight: 400;
   --card-title-font-weight: 700;
   --accent-color: #000;
-  --bg-color: #fff; 
+  --bg-color: #fff;
+  --text-color: #000;
+  --card-section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.7rem);
+  --body-patern: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0/0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0/0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
