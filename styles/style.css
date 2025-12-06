@@ -232,9 +232,7 @@
   padding: 15px 0;
   font-family: var(--accent-font), fantasy;
   font-size: 14px;
-  font-size: 14px;
   background-color: var(--bg-color #fff);
-  background-color: var(--bg-color, #fff);
   transition: box-shadow 0.3s;
   cursor: pointer;
 }
